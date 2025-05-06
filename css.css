@@ -1,0 +1,51 @@
+.container-main{
+    display: flex;
+    border: 1px solid black;
+    background-color: green;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+.container-section{
+    border: 1px solid black;
+    display: flex;
+    height: 400px;
+    gap: 10px; 
+    justify-content: center;
+    padding: 200px 200px;
+    flex-direction: column;
+}
+
+.blau{
+    background-color: blue;
+    text-align: justify;
+}
+
+.taronja{
+    background-color: orange;
+    
+}
+
+.morado{
+    background-color: blueviolet;
+}
+
+.verd{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.violeta{
+    background-color: violet;
+}
+
+@media(max-width: 768px){
+    .container-main{
+        display: grid;
+        height: 55px;
+    }
+    
+}
